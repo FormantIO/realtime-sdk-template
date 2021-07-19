@@ -1177,6 +1177,14 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@formant/realtime-sdk@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@formant/realtime-sdk/-/realtime-sdk-0.0.1.tgz#299d4639b4eb901c27d194ca6f11922dd474e05d"
+  integrity sha512-EIUpSKDWu320n5Xi6KB1lBgpObtg81SMFimGZhzVaIZ2IqPVaXDYL/0WUf8+m/BnsbWhgtm4+MR/IjHSYJ+u/A==
+  dependencies:
+    google-protobuf "^3.17.3"
+    grpc-web "^1.2.1"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -5274,6 +5282,11 @@ globby@^6.1.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
+google-protobuf@^3.17.3:
+  version "3.17.3"
+  resolved "https://registry.yarnpkg.com/google-protobuf/-/google-protobuf-3.17.3.tgz#f87595073545a77946c8f0b67c302c5f7646d700"
+  integrity sha512-OVPzcSWIAJ+d5yiHyeaLrdufQtrvaBrF4JQg+z8ynTkbO3uFcujqXszTumqg1cGsAsjkWnI+M5B1xZ19yR4Wyg==
+
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4:
   version "4.2.6"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
@@ -5283,6 +5296,11 @@ growly@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/growly/-/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
   integrity sha1-8QdIy+dq+WS3yWyTxrzCivEgwIE=
+
+grpc-web@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/grpc-web/-/grpc-web-1.2.1.tgz#860051d705bf5baa7b81fcbd14030060bf16b7b9"
+  integrity sha512-ibBaJPzfMVuLPgaST9w0kZl60s+SnkPBQp6QKdpEr85tpc1gXW2QDqSne9xiyiym0logDfdUSm4aX5h9YBA2mw==
 
 gzip-size@5.1.1:
   version "5.1.1"
@@ -10319,11 +10337,6 @@ tar@^6.0.2:
     minizlib "^2.1.1"
     mkdirp "^1.0.3"
     yallist "^4.0.0"
-
-teleop-client@^1.0.38:
-  version "1.0.38"
-  resolved "https://registry.yarnpkg.com/teleop-client/-/teleop-client-1.0.38.tgz#372bec46933164538d8a3d94c9b9fbd21a7ff247"
-  integrity sha512-dnnDBOPSA0KsBPzzRJ7dIrB9alQprkDf5gYBoLQ6Swn3+D5CaW/r4fxqrcgENDLyofqydiSEdGK9lkO7tr2HhQ==
 
 temp-dir@^1.0.0:
   version "1.0.0"
