@@ -10320,6 +10320,11 @@ tar@^6.0.2:
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
+teleop-client@^1.0.38:
+  version "1.0.38"
+  resolved "https://registry.yarnpkg.com/teleop-client/-/teleop-client-1.0.38.tgz#372bec46933164538d8a3d94c9b9fbd21a7ff247"
+  integrity sha512-dnnDBOPSA0KsBPzzRJ7dIrB9alQprkDf5gYBoLQ6Swn3+D5CaW/r4fxqrcgENDLyofqydiSEdGK9lkO7tr2HhQ==
+
 temp-dir@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/temp-dir/-/temp-dir-1.0.0.tgz#0a7c0ea26d3a39afa7e0ebea9c1fc0bc4daa011d"
